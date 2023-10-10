@@ -9,7 +9,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'next/core-web-vitals',
-    'prettier',
   ],
   overrides: [
     {
@@ -27,12 +26,11 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'react', 'prettier'],
+  plugins: ['@typescript-eslint', 'react'],
   rules: {
     indent: ['error', 2],
     'linebreak-style': ['error', 'windows'],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
-    'prettier/prettier': ['warn'],
   },
 };
